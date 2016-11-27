@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+ header {
+  font-size: 1.75em;
+  text-align: center;
+  font-family: fantasy;
+  font-weight: bold;
+  margin: 20px;
+ }
+ section {
+ 	padding: 10px;
+ }
+ section >div {
+ 	border: 1px solid;
+ 	position: relative;
+ 	padding: 10px;
+ 	background-color: #aaaaaa;	
+ }
+ section > div> h1 {
+    top: 0;
+    right: 0;
+    width: 100px;
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    position: absolute;
+    text-align: center;
+
+ }
+ section >div>p {
+ 	padding-top: 40px;
+ 	font-family: serif;
+ }
+ #chicken-heading{
+ 	background-color: #D4999A
+ }
+#beef-heading{
+ 	background-color: #C04646;
+ 	color:white;
+ }
+#sushi-heading{
+ 	background-color: #E5D19C
+ }
+/********** Desktop styles only **********/
+@media (min-width: 992px) {
+  .span-desk-full, .span-desk-half, .span-desk-third, .span-desk-quarter{
+    float: left;
+  }
+  .span-desk-quarter {
+    width: 25%;
+  }
+  .span-desk-third {
+    width: 33.33%;
+  } 
+  .span-desk-half {
+    width: 50%;
+  }
+  .span-desk-full {
+    width: 100%;
+  }
+}
+
+/********** Tablet styles only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+   .span-tblt-full, .span-tblt-half, .span-tblt-third, .span-tblt-quarter{
+    float: left;
+  }
+  .span-tblt-quarter {
+    width: 25%;
+  }
+  .span-tblt-third {
+    width: 33.33%;
+  } 
+  .span-tblt-half {
+    width: 50%;
+  }
+  .span-tblt-full {
+    width: 100%;
+  }
+}
