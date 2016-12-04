@@ -1,0 +1,34 @@
+#header-nav {
+  background-color: #c0b283;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.5;
+}
+.tall{
+	height: 300px
+}
+.container h2 {
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+.chicken-section{
+	background-color: #f4f4f4;
+}
+#nav-list li a:hover {
+  background: #373737;
+  color: #dcd0c0;
+	font-weight: bold;
+
+}
+@media (max-width: 767px) {
+#collapsable-nav-1{
+	text-align: center;
+	background-color: #dcd0c0;
+
+}
+}
